@@ -1,0 +1,232 @@
+/*
+Name: Ethan Kittell
+Email: Ethan_Kittell@student.uml.edu
+
+This css file just gives the project a look that makes sense and 
+matches the scrabble images up with their html element for their
+specific functions (aka matches the divs for placing tiles up with
+the spaces on the single line board image used as a background image for
+the div container)
+*/
+
+/*styling for the single lined board container
+this just allows for all the tile spots to line up with the image and to add
+the single lined board as a background image for the tile spots*/
+#board {
+  background-image: url("../graphics_data(1)//graphics_data/Scrabble_Board_OneLine.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  background-position: center center;
+ 
+    width:1260px;
+    /*background-attachment: fixed;
+    background-position: top center;*/
+    margin: auto;
+    padding-top: 22px;
+    padding-left: 129px;
+    
+}
+
+/*styling for the tile rack does the same thing as the board styling
+just accommodates for the reduced amount of spots since the rack has
+7 spots and the board has 15*/
+#holder {
+  background-image: url("../graphics_data(1)//graphics_data/scrabble-tile-holder-406774_640.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  background-position: center center;
+  padding-left: 450px;
+  
+  
+  width:1000px;
+  
+  margin: auto;
+  
+}
+
+
+/*styling for every space a tile can be placed, allows for
+the board to match up with the tile space spacing*/
+.target {
+  float: left;
+  width: 70px;
+    height: 70px;
+    margin-top: 3px;
+    margin-left:3px;
+  border: 1px solid transparent;
+  
+
+  
+  
+}
+
+
+/*sets the size of every tile to pretty much fill each space with a size of 
+70px by 70px*/
+.element {
+ /* background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg");*/
+  width: 70px;
+  height: 70px;
+}
+
+
+/*A background image for every tile to its corresponding letter given
+by the datastructure*/
+.A {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg");
+  background-size: cover;
+}
+.B {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_B.jpg");
+  background-size: cover;
+}
+.C {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_C.jpg");
+  background-size: cover;
+}
+.D {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_D.jpg");
+  background-size: cover;
+}
+.E {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_E.jpg");
+  background-size: cover;
+}
+.F {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_F.jpg");
+  background-size: cover;
+}
+.G {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_G.jpg");
+  background-size: cover;
+}
+.H {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_H.jpg");
+  background-size: cover;
+}
+.I {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_I.jpg");
+  background-size: cover;
+}
+.J {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_J.jpg");
+  background-size: cover;
+}
+.K {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_K.jpg");
+  background-size: cover;
+}
+.L {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_L.jpg");
+  background-size: cover;
+}
+.M {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_M.jpg");
+  background-size: cover;
+}
+.N {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_N.jpg");
+  background-size: cover;
+}
+.O {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_O.jpg");
+  background-size: cover;
+}
+.P {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_P.jpg");
+  background-size: cover;
+}
+.Q {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_Q.jpg");
+  background-size: cover;
+}
+.R {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_R.jpg");
+  background-size: cover;
+}
+.S {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_S.jpg");
+  background-size: cover;
+}
+.T {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_T.jpg");
+  background-size: cover;
+}
+.U {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_U.jpg");
+  background-size: cover;
+}
+.V {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_V.jpg");
+  background-size: cover;
+}
+.W {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_W.jpg");
+  background-size: cover;
+}
+.X {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_X.jpg");
+  background-size: cover;
+}
+.Y {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_Y.jpg");
+  background-size: cover;
+}
+.Z {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_Z.jpg");
+  background-size: cover;
+}
+._ {
+  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_Blank.jpg");
+  background-size: cover;
+}
+
+/*container for the 2 buttons and score just allows for those
+3 elements to be equally space and centered*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/*title css for centering*/
+h1 {
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+h4 {
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  width:700px;
+}
+
+/*used the website https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3
+for the rainbow animation for the scrabble title*/
+#title {
+  font-family:arial black;
+  font-size:70px;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 400s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
