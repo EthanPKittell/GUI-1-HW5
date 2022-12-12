@@ -64,7 +64,7 @@ the board to match up with the tile space spacing*/
 /*sets the size of every tile to pretty much fill each space with a size of 
 70px by 70px*/
 .element {
- /* background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg");*/
+ /* background: url("../images/letters/Scrabble_Tile_A.jpg");*/
   width: 70px;
   height: 70px;
 }
@@ -73,111 +73,111 @@ the board to match up with the tile space spacing*/
 /*A background image for every tile to its corresponding letter given
 by the datastructure*/
 .A {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg");
+  background: url("../images/letters/Scrabble_Tile_A.jpg");
   background-size: cover;
 }
 .B {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_B.jpg");
+  background: url("../images/letters/Scrabble_Tile_B.jpg");
   background-size: cover;
 }
 .C {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_C.jpg");
+  background: url("../images/letters/Scrabble_Tile_C.jpg");
   background-size: cover;
 }
 .D {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_D.jpg");
+  background: url("../images/letters/Scrabble_Tile_D.jpg");
   background-size: cover;
 }
 .E {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_E.jpg");
+  background: url("../images/letters/Scrabble_Tile_E.jpg");
   background-size: cover;
 }
 .F {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_F.jpg");
+  background: url("../images/letters/Scrabble_Tile_F.jpg");
   background-size: cover;
 }
 .G {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_G.jpg");
+  background: url("../images/letters/Scrabble_Tile_G.jpg");
   background-size: cover;
 }
 .H {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_H.jpg");
+  background: url("../images/letters/Scrabble_Tile_H.jpg");
   background-size: cover;
 }
 .I {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_I.jpg");
+  background: url("../images/letters/Scrabble_Tile_I.jpg");
   background-size: cover;
 }
 .J {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_J.jpg");
+  background: url("../images/letters/Scrabble_Tile_J.jpg");
   background-size: cover;
 }
 .K {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_K.jpg");
+  background: url("../images/letters/Scrabble_Tile_K.jpg");
   background-size: cover;
 }
 .L {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_L.jpg");
+  background: url("../images/letters/Scrabble_Tile_L.jpg");
   background-size: cover;
 }
 .M {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_M.jpg");
+  background: url("../images/letters/Scrabble_Tile_M.jpg");
   background-size: cover;
 }
 .N {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_N.jpg");
+  background: url("../images/letters/Scrabble_Tile_N.jpg");
   background-size: cover;
 }
 .O {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_O.jpg");
+  background: url("../images/letters/Scrabble_Tile_O.jpg");
   background-size: cover;
 }
 .P {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_P.jpg");
+  background: url("../images/letters/Scrabble_Tile_P.jpg");
   background-size: cover;
 }
 .Q {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_Q.jpg");
+  background: url("../images/letters/Scrabble_Tile_Q.jpg");
   background-size: cover;
 }
 .R {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_R.jpg");
+  background: url("../images/letters/Scrabble_Tile_R.jpg");
   background-size: cover;
 }
 .S {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_S.jpg");
+  background: url("../images/letters/Scrabble_Tile_S.jpg");
   background-size: cover;
 }
 .T {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_T.jpg");
+  background: url("../images/letters/Scrabble_Tile_T.jpg");
   background-size: cover;
 }
 .U {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_U.jpg");
+  background: url("../images/letters/Scrabble_Tile_U.jpg");
   background-size: cover;
 }
 .V {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_V.jpg");
+  background: url("../images/letters/Scrabble_Tile_V.jpg");
   background-size: cover;
 }
 .W {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_W.jpg");
+  background: url("../images/letters/Scrabble_Tile_W.jpg");
   background-size: cover;
 }
 .X {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_X.jpg");
+  background: url("../images/letters/Scrabble_Tile_X.jpg");
   background-size: cover;
 }
 .Y {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_Y.jpg");
+  background: url("../images/letters/Scrabble_Tile_Y.jpg");
   background-size: cover;
 }
 .Z {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_Z.jpg");
+  background: url("../images/letters/Scrabble_Tile_Z.jpg");
   background-size: cover;
 }
 ._ {
-  background: url("../graphics_data(1)//graphics_data/Scrabble_Tiles/Scrabble_Tile_Blank.jpg");
+  background: url("../images/letters/Scrabble_Tile_Blank.jpg");
   background-size: cover;
 }
 
