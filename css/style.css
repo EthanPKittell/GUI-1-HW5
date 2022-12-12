@@ -13,7 +13,7 @@ the div container)
 this just allows for all the tile spots to line up with the image and to add
 the single lined board as a background image for the tile spots*/
 #board {
-  background-image: url("graphics_data(1)\graphics_data/Scrabble_Board_OneLine.png");
+  background-image: url("../graphics_data(1)\graphics_data/Scrabble_Board_OneLine.png");
   background-repeat: no-repeat;
   height: 100px;
   background-position: center center;
@@ -31,7 +31,7 @@ the single lined board as a background image for the tile spots*/
 just accommodates for the reduced amount of spots since the rack has
 7 spots and the board has 15*/
 #holder {
-  background-image: url("graphics_data(1)//graphics_data/scrabble-tile-holder-406774_640.png");
+  background-image: url("../graphics_data(1)\graphics_data/scrabble-tile-holder-406774_640.png");
   background-repeat: no-repeat;
   height: 100px;
   background-position: center center;
