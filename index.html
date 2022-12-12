@@ -1,0 +1,76 @@
+<!-- 
+Name: Ethan Kittell
+Email: Ethan_Kittell@student.uml.edu
+
+This HTML file has the code to give the scrabble game its "skeleton"
+mainly contains divs that act as spots that tiles can be placed and
+buttons that are used to move to new rounds and reset the game.
+
+I mainly used one source for my html and its imbedded in the code 
+it is a stack overflow page where the drag and drop basics are described
+I used this as a good base for my code
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+    <link href=" https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <!--title and description of how to play the game-->
+<h1 id="title">SCRABBLE</h1>
+<h4>This project was made by: Ethan Kittell</h4>
+<p>Drag letter tiles on the board to create words. Make a word each round to increase
+  your score. Move onto the next round for more letter tiles until they run out. Restart the game to play again.
+</p>
+
+
+
+<!--This is the website where I borrowed some code for helping create the drag and drop system:
+ https://stackoverflow.com/questions/50660597/prevent-drop-event-when-its-already-have-child-element-drag-and-drop -->
+<div id="board">
+  <div class="target" id="b0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b12" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b13" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="b14" ondrop="drop(event)" ondragover="allowDrop(event)"></div>  
+</div>
+<!--Container to style the positioning of the 2 buttons and score-->
+<div class="container">
+  <button type="button" id="btn">Next Round</button>
+  <h2 class="scoreBoard">Score: 0</h2>
+  <button type="button" id="btn2">Restart Game</button>
+</div>
+<!--Another container div with targets to drop tiles but this is for 
+the "holder/rack" for all the tiles-->
+<div id="holder">
+  <div class="target" id="t0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="t1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="t2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="t3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="t4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="t5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="target" id="t6" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+</div>
+
+</body>
+</html>
