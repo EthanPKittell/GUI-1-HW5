@@ -13,7 +13,7 @@ the div container)
 this just allows for all the tile spots to line up with the image and to add
 the single lined board as a background image for the tile spots*/
 #board {
-  background-image: url("graphics_data(1)\graphics_data/Scrabble_Board_OneLine.png");
+  background-image: url("../images/Scrabble_Board_OneLine.png");
   background-repeat: no-repeat;
   height: 100px;
   background-position: center center;
